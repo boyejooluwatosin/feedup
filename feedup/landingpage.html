@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedUp Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function toggleMenu() {
+            document.getElementById("mobileMenu").classList.toggle("hidden");
+        }
+    </script>
+</head>
+<body class="bg-blue-900 text-white "style="background-color: #000080">
+  <nav class="text-white px-20 py-6 flex gap-40 items-center" style="background-color: #000080">
+    <img src="Feedup.png" alt="">
+    <div class="flex items-center space-x-8">
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">Home</a>
+      <div class="relative group">
+        <button class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded flex items-center">
+          Category
+          <svg class="ml-1 w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="absolute left-0 mt-2 hidden group-hover:block bg-white text-blue-800 shadow rounded">
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Technology</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Products</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Education</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Lifestyle</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Health Care</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Services</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">SocialIssues</a>
+        </div>
+      </div>
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">Submit Feedback</a>
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">Trending Feedback</a>
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">About Us</a>
+    </div>
+    <div class="flex space-x-6">
+      <a href="#" class="px-4 py-2 text-blue-800 rounded-xl hover:bg-blue-800 hover:text-white"style="background: #87CEEB;
+">Log in</a>
+      <a href="#" class="px-4 py-2 bg-yellow-400 rounded-xl text-blue-800 rounded hover:bg-yellow-500">Sign up</a>
+    </div>
+  </nav>
+
+
+    <!-- Hero Section -->
+    <section class=" flex justify-center gap-10  py-12">
+       <div>
+           <h2 class="text-4xl font-bold w-3/5">Share Your Feedback with the World!</h2>
+           <p class="my-20 text-lg w-4/5">Join a community where your feedback matters. Discover, discuss, and improve what you care about.</p>
+           <div class="mt-6 space-x-4">
+              <button class="bg-yellow-500 text-white px-4 py-2 rounded">Start Sharing</button>
+              <button class="bg-green-500 text-white px-4 py-2 rounded">Explore Feedback</button>
+           </div>
+        </div>
+        <img src="landing1.png" alt="">
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="bg-white text-gray-900 py-16 px-40">
+        <h3 class="text-center text-2xl font-bold mb-8">How It Works</h3>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 px-4">
+            <div class="bg-white shadow-xl px-6 pt-6 pb-20  rounded-3xl text-center">
+                <h4 class="font-semibold">Discover Topics</h4>
+                <p>Browse categories or trending topics to find feedback that interests you.</p>
+            </div>
+            <div class=" bg-white shadow-xl px-6 pt-6 pb-20  rounded-3xl text-center">
+                <h4 class="font-semibold">Submit Feedback</h4>
+                <p>Share your thoughts on anything that matters to you - products, services, or new ideas.</p>
+            </div>
+            <div class="bg-white shadow-xl px-6 pt-6 pb-20  rounded-3xl text-center">
+                <h4 class="font-semibold">Engage with Community</h4>
+                <p>Vote, comment, and connect with others who share your views.</p>
+            </div>
+            <div class="bg-white shadow-xl px-6 pt-6 pb-20 rounded-3xl text-center">
+                <h4 class="font-semibold">See Progress</h4>
+                <p>Stay updated as feedback is reviewed and acted on by our community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Categories Section -->
+    <section class=" text-center py-16 px-40">
+        <h3 class="text-2xl font-bold mb-8">Popular Categories</h3>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 px-4 mt-20">
+            <div class="">
+                <h4 class=" font-semibold ">Health & Wellness</h4>
+                <img src="health.png" alt="Health & Wellness" class="w-full mt-5">
+               
+            </div>
+            <div class="">
+                <h4 class=" font-semibold">Products & Services</h4>
+                <img src="product.png" alt="Products & Services" class="w-full mt-5">
+                
+            </div>
+            <div class="">
+                <h4 class=" font-semibold">Education</h4>
+                <img src="education.png" alt="Education" class="w-full mt-5">
+                
+            </div>
+            <div class="">
+                <h4 class=" font-semibold">Social Issues</h4>
+                <img src="social.png" alt="Social Issues" class="w-full mt-5">
+                
+            </div>
+        </div>
+        <button class="bg-blue-700 text-white px-6 py-3 mt-8 rounded-md">View All Categories</button>
+    </section>
+    <section class="container mx-auto px-4 py-10 bg-white">
+        <h1 class="text-2xl text-gray-900 font-bold text-center mb-2">Trending Feedback</h1>
+        <p class="text-center text-gray-900 mb-8">
+          Discover what others are saying and join the conversation on the hottest topics!
+        </p>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-40">
+          <!-- Card 1 -->
+          <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-lg transition duration-200">
+            <h2 class="text-xl text-gray-900 font-semibold mb-2">Enhancing Bus Routes in Urban Areas</h2>
+            <p class="text-gray-900 mb-4">
+              Many users have suggested adding more bus routes to underserved neighborhoods to reduce commute times and improve accessibility.
+            </p>
+            <p class="text-sm text-gray-900 mb-4">
+              Posted by: Alex Johnson<br>
+              Votes: 120 | Comments: 45
+            </p>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-lg transition duration-200">
+            <h2 class="text-xl text-gray-900 font-semibold mb-2">Enhancing Online Learning Platforms<br> Interactive Features for E-Learning</h2>
+            <p class="text-gray-600 mb-4">
+              Feedback indicates a demand for more interactive elements like live Q&A sessions, gamified learning modules, and personalized study plans.
+            </p>
+            <p class="text-sm text-gray-900 mb-4">
+              Posted by: Maria Lopez<br>
+              Votes: 95 | Comments: 30
+            </p>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-lg transition duration-200">
+            <h2 class="text-xl text-gray-900 font-semibold mb-2">Sustainable Packaging Solutions <br>
+               Eco-Friendly Packaging for Retail Products</h2>
+            <p class="text-gray-900 mb-4">
+              Users are advocating for retailers to switch to biodegradable or recyclable packaging materials to minimize environmental impact.
+            </p>
+            <p class="text-sm text-gray-900 mb-4">
+              Posted by: Liam O'Connor<br>
+              Votes: 110 | Comments: 60
+            </p>
+          </div>
+    
+          <!-- Card 4 -->
+          <div class="bg-white p-6 rounded-xl shadow-xl hover:shadow-lg transition duration-200">
+            <h2 class="text-xl text-gray-900 font-semibold mb-2">Enhancing Mobile App Usability <br>
+
+              Streamlining Navigation in Mobile Apps</h2>
+            <p class="text-gray-900 mb-4">
+              Feedback suggests simplifying navigation and adding customizable shortcuts to improve user experience and accessibility in mobile apps.
+            </p>
+            <p class="text-sm text-gray-900 mb-4">
+              Posted by: Sophie Chen<br>
+              Votes: 80 | Comments: 25
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+           
+           <div class="mx-40  my-10 text-center">
+            <h1 class="text-center text-2xl text-white font-bold pt-">Why Join Our Community?</h1>
+            <ul class="mt-4 space-y-8 pt-10">
+                <li class="flex items-center text-xl space-x-12 text-white">
+                    <span class="h-4 w-4 rounded-full inline-block"style="background: linear-gradient(180deg, #87CEFA 0%, #87CEFA 100%);
+"></span>
+                    <p>Empower Change: Make your voice heard on the issues that matter to you.</p>
+                </li>
+                <li class="flex items-center text-xl space-x-12 text-white">
+                    <span class="h-4 w-4  rounded-full inline-block"style="background: linear-gradient(180deg, #87CEFA 0%, #87CEFA 100%);
+"></span>
+                    <p>Connect with Like-minded People: Engage with others who share similar interests.</p>
+                </li>
+                <li class="flex items-center text-xl space-x-12 text-white">
+                    <span class="h-4 w-4 rounded-full inline-block" style="background: linear-gradient(180deg, #87CEFA 0%, #87CEFA 100%);
+"></span>
+                    <p>See Real Impact: Watch as popular ideas turn into actions.</p>
+                </li>
+                <li class="flex items-center text-xl space-x-12 text-white">
+                  <span class="h-4 w-4 rounded-full inline-block" style="background: linear-gradient(180deg, #87CEFA 0%, #87CEFA 100%);
+"></span>
+                  <p>Influence Product Development</p>
+              </li>
+              <li class="flex items-center text-xl space-x-12 text-white">
+                <span class="h-4 w-4 rounded-full inline-block" style="background: linear-gradient(180deg, #87CEFA 0%, #87CEFA 100%);
+"></span>
+                <p>Experience Transparent Feedback Cycles</p>
+            </li>
+            </ul>
+            <button class="p-2 bg-yellow-600 rounded-md mt-20">Start Making an Impact</button>
+        </div>
+      </section>
+
+      <section class=" flex gap-20 text-gray-900 items-center px-40 py-5"style="background: #A8D1E7;
+">
+          <div >
+              <h1 class="text-2xl font-bold">Ready to Make a Difference</h1>
+              <p>Share feedback, inspire change</p>
+          </div>
+          <div class="px-8 py-2 rounded-md text-white"style="background: #004080;">
+            Get Started
+          </div>
+      </section>
+      <div class="w-full h-2 bg-white"></div>
+
+      <footer  class="px-40 py-4">
+          <div class="flex gap-60">
+            <div>
+              <img src="Feedup.png" alt="">
+            <div class="flex space-x-2 pt-2 rounded-lg">
+              <!-- Social Icons (placeholders) -->
+             <a href="#"><img src="line-md_youtube-filled.png" alt="youtube"></a><!-- Email Icon -->
+             <a href="#"><img src="Group (1).png" alt="linkedin"></a>
+             <a href="#"><img src="Vector (14).png" alt="facebook"></a>
+             <a href="#"><img src="Group (2).png" alt="twitter"></a>
+             <a href="#"><img src="Vector (15).png" alt="instagam"></a>
+             <a href="#"><img src="Vector (16).png" alt="mail"></a>
+             
+            </div>
+            <p class="text-white mt-4">© 2024 FeedUp</p>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-xl text-white mb-2">Quick Link</h3>
+            <ul class="text-white space-y-2">
+              <li><a href="#" class="hover:text-gray-800"> Home</a></li>
+              <li><a href="#" class="hover:text-gray-800">About Us</a></li>
+              <li><a href="#" class="hover:text-gray-800">Contact Us</a></li>
+              <li><a href="#" class="hover:text-gray-800">Terms of Services</a></li>
+              <li><a href="#" class="hover:text-gray-800">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          </div>
+      </footer>
+</body>
+</html>
+

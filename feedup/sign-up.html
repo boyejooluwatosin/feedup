@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white  ">
+  <nav class="text-white px-20 py-6 flex gap-40 items-center" style="background-color: #000080">
+    <img src="Feedup.png" alt="">
+    <div class="flex items-center space-x-8">
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">Home</a>
+      <div class="relative group">
+        <button class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded flex items-center">
+          Category
+          <svg class="ml-1 w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="absolute left-0 mt-2 hidden group-hover:block bg-white text-blue-800 shadow rounded">
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Technology</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Products</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Education</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Lifestyle</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Health Care</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Services</a>
+          <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">SocialIssues</a>
+        </div>
+      </div>
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">Submit Feedback</a>
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">Trending Feedback</a>
+      <a href="#" class="px-3 py-2 hover:bg-white hover:text-blue-800 rounded">About Us</a>
+    </div>
+    <div class="flex space-x-6">
+      <a href="#" class="px-4 py-2 text-blue-800 rounded-xl hover:bg-blue-800 hover:text-white"style="background: #87CEEB;
+">Log in</a>
+      <a href="#" class="px-4 py-2 bg-yellow-400 rounded-xl text-blue-800 rounded hover:bg-yellow-500">Sign up</a>
+    </div>
+  </nav>
+
+  <div class=" w-3/5  mx-auto ">
+    <div class="flex flex-col items-center">
+        <img src="welcome.png" alt=""class="flex items-center">
+    </div>
+    <h1 class="text-center text-2xl font-bold text-gray-600 mb-3">Create your free account</h1>
+    <p class="text-center text-gray-600 mb-6">Sign up to share feedback, connect with others, and make a difference.</p>
+    
+
+    <form action="#" method="POST" class="space-y-4">
+        <div class=" rounded-lg"style="border: 1px solid #070ADA">
+            <div class="flex items-center h-9 my-1  mx-3 border:none">
+              <p class="text-gray-70 ">First Name:</p>
+              <input type="text" class="w-4/5 h-9 border-none focus:ring-0 focus:outline-none" required>
+            </div>
+          </div>
+          
+          
+          
+        <div class=" rounded-md"style="border: 1px solid #070ADA">
+            <div class=" flex items-center  h-9 my-1  mx-3 border:none">
+                <p class="text-gray-70">Last Name:</p>
+                <input type="text" class="w-4/5 h-9 border:none focus:ring-0 focus:outline-none" placeholder="" required>
+            </div>
+        </div>
+        <div class="rounded-md"style="border: 1px solid #070ADA">
+            <div class=" flex items-center  h-9 my-1  mx-3 border:none">
+                <p class="text-gray-70">Username:</p>
+                <input type="text" class="w-4/5 h-9 border:none focus:ring-0 focus:outline-none" placeholder="" required>
+            </div>
+        </div>
+        <div class=" rounded-md"style="border: 1px solid #070ADA">
+            <div class=" flex items-center  h-9 my-1  mx-3 border:none">
+                <p class="text-gray-70">Email Address:</p>
+                <input type="email" class="w-4/5 h-9 border:none focus:ring-0 focus:outline-none" placeholder="" required>
+            </div>
+        </div>
+        <div class="rounded-md"style="border: 1px solid #070ADA">
+            <div class=" flex items-center  h-9 my-1  mx-3 border:none">
+                <p class="text-gray-70">Password:</p>
+                <input type="password" class="w-4/5 h-9 border:none focus:ring-0 focus:outline-none" placeholder="" required>
+            </div>
+        </div>
+        <div class="rounded-md"style="border: 1px solid #070ADA">
+            <div class=" flex items-center  h-9 my-1  mx-3 border:none">
+                <p class="text-gray-70"> Confirm Password:</p>
+                <input type="password" class="w-4/5 h-9 border:none focus:ring-0 focus:outline-none" placeholder="" required>
+            </div>
+        </div>
+        <div class="relative group rounded-md w-full" style="border: 1px solid #000080">
+          <button class="px-3 py-2 hover:bg-white hover:text-blue-900 flex  items-center">
+               <p>Role Selection</p>
+               <svg class="ml-1 w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          <div class="absolute left-0 mt-2 hidden group-hover:block bg-white text-blue-800 shadow rounded">
+            <p class="block px-4 py-2">Select Role:</p>
+            <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">User</a>
+            <a href="#" class="block px-4 py-2 hover:bg-blue-800 hover:text-white">Admin</a>
+          </div>
+        </div>
+        <button type="submit" class="w-full  text-black py-2 mt-4 mb-10 rounded-3xl font-semibold " style="background: #FFD700;
+">Sign Up</button>
+        <p class="text-center text-xl text-gray-600 ">Already have an account? <a style="color: #000080"   href="sign-in.html">Sign in</a></p>
+    </form>
+  </div>
+   
+
+  <div class="text-white h-14 mt-10" style="background-color: #000080"></div>
+</body>
+</html>
+
